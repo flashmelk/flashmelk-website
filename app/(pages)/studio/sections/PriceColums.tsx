@@ -15,14 +15,14 @@ import Link from "next/link";
 const PriceColums = () => {
   return (
     <div id="price" className="max-w-6xl mx-auto ">
-      <Tabs defaultValue="photos" className="">
+      <Tabs defaultValue="cyc" className="">
         <div className="flex w-full items-center justify-center">
           <TabsList className="w-[19rem] ring-2 ring-primary rounded-3xl flex items-center justify-center my-10 space-x-2 bg-white ">
             <TabsTrigger
-              value="photos"
+              value="cyc"
               className="rounded-3xl data-[state=active]:bg-primary data-[state=active]:text-white"
             >
-              <p className="px-2">Photos</p>
+              <p className="px-2">CYC Wall</p>
             </TabsTrigger>
             <TabsTrigger
               value="videos"
@@ -31,10 +31,10 @@ const PriceColums = () => {
               <p className="px-2">Videos</p>
             </TabsTrigger>
             <TabsTrigger
-              value="cyc"
+              value="photos"
               className="rounded-3xl data-[state=active]:bg-primary data-[state=active]:text-white"
             >
-              <p className="px-2">CYC Wall</p>
+              <p className="px-2">Photos</p>
             </TabsTrigger>
           </TabsList>
         </div>
