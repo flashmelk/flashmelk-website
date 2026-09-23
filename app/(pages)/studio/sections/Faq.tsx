@@ -13,8 +13,8 @@ import { ArrowRight } from "lucide-react";
 import { faqData } from "@/constants";
 
 export default function Faq() {
-  const containerRef = useRef(null);
-  const titleRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const titleRef = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
